@@ -1,4 +1,4 @@
-# on-chain-parimutuel-betting
+# on-chain-betting
 
 ## Problems to solve + abstract
 
@@ -14,10 +14,20 @@ To bring this on-chain, two key features need to be solved for:
 
 This has been solved for. Optimistic oracles like UMA can provide cost-effective solutions
 for on-chain betting, which has been seen in projects such as Polymarket 
+
+#### determining spreads
+
+on-chian payouts are currently done in parimutel setting this is bad and leads to low liqudity
+lines and if not, there is usually significant arb opportunites between on-chain lines and vegas
+odds. Given vegas sportsbooks have been largely profitable, I propose a consensus mechanism that takes
+the average line of the top n major vegas sportsbooks to determine lines 
  
 #### sufficient liquidity mechanisms across books
 
-perhaps the biggest issue plaguing on-chain betting currently is insufficient liquidity
-
+perhaps the biggest issue plaguing on-chain betting currently is insufficient liquidity.
 Users currently are not incentivized to place sizeable bets (most polymarket bets
-liqudity < $100k liqudity)
+liqudity < $100k liqudity).
+
+Users should be able to LP across all bets / lines at the same time
+
+
