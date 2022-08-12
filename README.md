@@ -2,7 +2,7 @@
 
 ## Problems to solve + abstract
 
-The sports betting market is expected to be over $100B in market size by 2025
+The sports betting market is expected to be over $100B in market size by 2025 
 
 Current betters require users to work with bookies or centralized services to deposit
 funds, place bets, and recieve payouts with incredible amounts of trust. Bringing this
