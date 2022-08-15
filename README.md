@@ -13,12 +13,12 @@ to all market making opportunities
 
 To bring this on-chain, three key features need to be solved for:
 
-### outcome-based oracles
+### 1) outcome-based oracles
 
 This has been solved for. Optimistic oracles like UMA can provide cost-effective solutions
 for on-chain betting, which has been seen in projects such as Polymarket 
 
-### determining spreads
+### 2) determining spreads
 
 on-chain spreads are most frequently done through parimutel betting parameters for individual markets.
 this is incredibly inneficient that leads to very low liqudity, since bets "of size" are not profitable since
@@ -31,7 +31,7 @@ While this sounds intuitive, most crypto-native players have chosen not to imple
 negative exposure within the book. This risk can be significantly mitigated through "risk dispersion," as
 described below
  
-### aggregating liquidity mechanisms across markets + lines 
+### 3) aggregating liquidity mechanisms across markets + lines 
 
 perhaps the biggest issue plaguing on-chain betting currently is insufficient liquidity.
 Users currently are not incentivized to place sizeable bets, given spreads change significantly
