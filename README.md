@@ -31,7 +31,7 @@ While this sounds intuitive, most crypto-native players have chosen not to imple
 negative exposure within the book. This risk can be significantly mitigated through "risk dispersion," as
 described below
  
-### 3) aggregating liquidity mechanisms across markets + lines 
+### 3) aggregating liquidity across markets + lines 
 
 perhaps the biggest issue plaguing on-chain betting currently is insufficient liquidity.
 Users currently are not incentivized to place sizeable bets, given spreads change significantly
