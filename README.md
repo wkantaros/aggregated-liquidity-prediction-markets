@@ -1,12 +1,15 @@
-# pooled liquidity on chain betting
+# aggregated liquidity on-chain market making
 
 ## Problems to solve + abstract
 
 The sports betting market is expected to be over $100B in market size by 2025 
 
-Current betters require users to work with bookies or centralized services to deposit
+Current bettors require users to work with bookies or centralized services to deposit
 funds, place bets, and recieve payouts with incredible amounts of trust. Bringing this
 on-chain is incredibly logical, and will mitgate need for trusted third parties
+
+*Note:* while this primarily focuses on sports betting, in practice this could be abstracted
+to all market making opportunities
 
 To bring this on-chain, three key features need to be solved for:
 
@@ -28,7 +31,7 @@ While this sounds intuitive, most crypto-native players have chosen not to imple
 negative exposure within the book. This risk can be significantly mitigated through "risk dispersion," as
 described below
  
-### sufficient liquidity mechanisms across books
+### aggregating liquidity mechanisms across markets + lines 
 
 perhaps the biggest issue plaguing on-chain betting currently is insufficient liquidity.
 Users currently are not incentivized to place sizeable bets, given spreads change significantly
@@ -40,13 +43,11 @@ This would allow users to place "bets of size" on low liquidity markets, as part
 -EV bets across all markets.
 
 *Mechanism thoughts*:
-- enforce a "max bet" size equal to 1/100th of current LP exposure. This would ensure lines are never adjusted
-- it is worth pointing out LP exposure != total assets in pool, since counterparties could place bets on other
-side of the same spread
+- enforce a "max bet" size equal to 1/100th of `total_liquidity - LP exposure`. This would ensure lines are never adjusted
+- it is worth pointing out `total_liquidity - LP exposure >= total_bets_placed` since counterparties could place bets on other side of the same spread
+- book would never be at risk of losing more money than provided under these parameters, it's always +EV for LPers + book over long time horizon, assuming lines are accurate
 
 *Incentives*:
 - all lines are -108 rather than -110, LPers still take massive profits bc 1600 BP spread, users get the best
 odds in town
-- if users bet w token there is no spread (higher risk for LPs but we make more money bc buying our token)
-
-
+- could implement fairly basic tokenomics where users get better lines if betting w our token
