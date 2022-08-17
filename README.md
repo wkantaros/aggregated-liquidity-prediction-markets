@@ -52,3 +52,12 @@ the sum of all lines.
 - all lines are -108 rather than -110, LPers still take massive profits bc 1600 BP spread, users get the best
 odds in town
 - could implement fairly basic tokenomics where users get better lines if betting w our token
+
+#### The "generalized protocol" + use additional cases
+
+We can abstract the three features above into a more generalized expression:
+Leveraging oracles and aggregated liquidity across markets to eliminate slippage for long-tail + exotic assets
+
+Examples:
+- GMX, uses chainlink oracles + pooled liquidity across markets for 0 slippage derivatives
+- Morpho, by building a p2p market on top of a liquidity pool, users get better rates while not guarunteeing counterparties 
