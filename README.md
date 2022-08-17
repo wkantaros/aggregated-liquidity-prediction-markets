@@ -8,7 +8,8 @@ expected to reach $100B in market size by 2025, bringing this on-chain mitgates 
 third parties, and provides lucrative opportunites for market makers.
 
 *Note:* while this primarily focuses on sports betting, in practice this could be abstracted
-to other markets (GMX deploys very similar mechanichs, for example)
+to other markets (GMX, Platypus, explore similar pooled liqudity concepts in derivitives + stablecoin
+space, for example)
 
 To bring this on-chain, three key features need to be solved for:
 
