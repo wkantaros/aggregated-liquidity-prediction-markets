@@ -16,7 +16,7 @@ To bring this on-chain, three key features need to be solved for:
 ### 1) outcome-based oracles
 
 This has been solved for. Optimistic oracles like UMA can provide cost-effective solutions
-for determining results of on-chain markets, and has been seen in production in productions
+for determining results of on-chain markets, and has been seen in production in applications
 such as Polymarket 
 
 ### 2) determining spreads / payouts
