@@ -53,10 +53,10 @@ all lines, and therefore mitigated.
 odds in town
 - could implement fairly basic tokenomics where users get better lines if betting w our token
 
-#### The "generalized protocol" + use additional cases
+#### The "generalized protocol" + use additional cases 
 
 We can abstract the three features above into a more generalized theme:
-Leveraging oracles and aggregated liquidity across markets to eliminate slippage for long-tail + exotic assets
+Leveraging oracles and aggregated liquidity across markets to eliminate slippage for additional assets
 
 Examples:
 - GMX, uses chainlink oracles + pooled liquidity across markets for 0 slippage derivatives
